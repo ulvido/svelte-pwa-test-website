@@ -3,7 +3,6 @@
 // cache define
 const CACHE_NAME = "sveltePWAtest-v1";
 const FILES_TO_CACHE = [
-  "index.html",
   "favicon.png",
   "global.css",
 ];
