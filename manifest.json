@@ -1,7 +1,14 @@
 {
-  "background_color": "#009688",
-  "theme_color": "#009688",
-  "display": "standalone",
+  "background_color": "#ed143d",
+  "theme_color": "#ed143d",
+  "display": "fullscreen",
+  "orientation": "any",
+  "lang": "tr-TR",
+  "dir": "ltr",
+  "categories": [
+    "business",
+    "shopping"
+  ],
   "icons": [
     {
       "src": "icon/fox-icon.png",
@@ -9,7 +16,20 @@
       "type": "image/png"
     }
   ],
+  "screenshots": [
+    {
+      "src": "screenshots/ss1.png",
+      "sizes": "512x1024",
+      "type": "image/png"
+    },
+    {
+      "src": "screenshots/ss2.png",
+      "sizes": "512x1024",
+      "type": "image/png"
+    }
+  ],
   "name": "Svelte PWA Test",
   "short_name": "Svelte PWA",
+  "description": "Svelte ile, offline first, yüklenebilir PWA",
   "start_url": "index.html?launcher=true"
 }
