@@ -3,6 +3,7 @@
 // cache define
 const CACHE_NAME = "sveltePWAtest-v1";
 const FILES_TO_CACHE = [
+  "index.html",
   "favicon.png",
   "global.css",
 ];
@@ -10,7 +11,7 @@ const FILES_TO_CACHE = [
 // service worker install
 self.addEventListener("install", e => {
   console.log("[Service Worker] Installing...");
-  
+
   const preCache = async () => {
     console.log("[Service Worker] Opening Cache...");
     const cache = await caches.open(CACHE_NAME);
