@@ -10,5 +10,5 @@
   ],
   "name": "Svelte PWA Test",
   "short_name": "Svelte PWA",
-  "start_url": "/index.html"
+  "start_url": "index.html"
 }
