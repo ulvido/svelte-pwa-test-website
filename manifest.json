@@ -1,5 +1,6 @@
 {
-  "background_color": "#3367D6",
+  "background_color": "#009688",
+  "theme_color": "#009688",
   "display": "standalone",
   "icons": [
     {
@@ -10,5 +11,5 @@
   ],
   "name": "Svelte PWA Test",
   "short_name": "Svelte PWA",
-  "start_url": "index.html"
+  "start_url": "/?utm_source=homescreen"
 }
