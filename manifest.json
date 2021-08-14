@@ -11,5 +11,5 @@
   ],
   "name": "Svelte PWA Test",
   "short_name": "Svelte PWA",
-  "start_url": "/?utm_source=homescreen"
+  "start_url": "/svelte-pwa-test-website?utm_source=homescreen"
 }
